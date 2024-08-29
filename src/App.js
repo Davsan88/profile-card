@@ -15,7 +15,13 @@ const profiles = [
     jobTitle: "Product Manager",
     bio: "Loves building products that solve real problems."
   },
-]
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Alice Johnson",
+    jobTitle: "UX Designer",
+    bio: "Designing intuitive user experiences is my passion."
+  }
+];
 
 
 function App() {
