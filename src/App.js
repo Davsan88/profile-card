@@ -8,7 +8,13 @@ const profiles = [
     name: "John Doe",
     jobTitle: "Software Engineer",
     bio: "Passionate about coding and teaching."
-  }
+  },
+  {
+    image: "https://via.placeholder.com/150",
+    name: "Jane Smith",
+    jobTitle: "Product Manager",
+    bio: "Loves building products that solve real problems."
+  },
 ]
 
 
