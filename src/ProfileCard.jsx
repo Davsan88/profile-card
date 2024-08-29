@@ -10,3 +10,5 @@ function ProfileCard({ image, name, jobTitle, bio }) {
         </div>
     );
 }
+
+export default ProfileCard;
