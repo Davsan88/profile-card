@@ -27,7 +27,15 @@ const profiles = [
 function App() {
   return (
     <div className="App">
-      
+      {profiles.map((profile, index) => (
+        <ProfileCard
+          key={index}
+          image={profile.image}
+          name={profile.name}
+          jobTitle={profile.jobTitle}
+          bio={profile.bio}
+        />
+      ))}    
     </div>
   );
 }
